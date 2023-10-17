@@ -23,9 +23,6 @@ EDUCATIONAL PURPOSES!
 ## 📜 Updates
 - Any Suggestions send in my discord.
 
-## 📹 Preview
-[Preview](https://cdn.discordapp.com/attachments/1098320905005973666/1163948459045433445/image.png?ex=65416e79&is=652ef979&hm=fb3f26c6b1aaf485482ab39ebafab309d6f18d0f0d83b2cbf8371d125f0b2f50&)
-
 ## ✨ Issues / Doubts
 - If you have any questions do not hesitate to enter my discord: [https://discord.gg/Un63v2truD](https://discord.gg/baMAyb4jeG)
 
