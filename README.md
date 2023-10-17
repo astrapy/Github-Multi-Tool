@@ -11,7 +11,7 @@ https://github.com/H4cK3dR4Du
 EDUCATIONAL PURPOSES!
 
 ## 🔥 Features
-[Preview](https://cdn.discordapp.com/attachments/1098320905005973666/1163948459045433445/image.png?ex=65416e79&is=652ef979&hm=fb3f26c6b1aaf485482ab39ebafab309d6f18d0f0d83b2cbf8371d125f0b2f50&)
+![Preview](https://cdn.discordapp.com/attachments/1098320905005973666/1163948459045433445/image.png?ex=65416e79&is=652ef979&hm=fb3f26c6b1aaf485482ab39ebafab309d6f18d0f0d83b2cbf8371d125f0b2f50&)
 
 ## ✍️ Usage
 1. Put your tokens in `tokens.txt`
