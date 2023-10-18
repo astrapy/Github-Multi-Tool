@@ -12,7 +12,7 @@ init(autoreset=True)
 
 class Utils:
     def update_title(module):
-        tokens = len(open('tokens.txt').readlines())
+        tokens = len(open('data/tokens.txt').readlines())
         ctypes.windll.kernel32.SetConsoleTitleW(f'Github Multi Tool - Made By Radu & Astra - Module : {module} | Tokens : {tokens} | https://github.com/H4cK3dR4Du & https://github.com/astrapy')
 
     def get_time():
