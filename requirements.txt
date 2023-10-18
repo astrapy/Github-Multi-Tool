@@ -1,0 +1,4 @@
+colored
+colorama
+httpx
+pystyle
