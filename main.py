@@ -33,7 +33,7 @@ def tool():
     if opc == "1":
         print()
         Utils.update_title("Token Checker")
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -59,7 +59,7 @@ def tool():
         issue_title = input(f"{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Issue Title ~>{Fore.RESET} ")
         issue_body = input(f"{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Issue Message ~>{Fore.RESET} ")
         print()
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -81,7 +81,7 @@ def tool():
     elif opc == "3":
         Utils.update_title("Repository Fork")
         url = input(f"\n{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Repository URL ~>{Fore.RESET} ")
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -120,7 +120,7 @@ def tool():
         description = input(f"{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Description ~>{Fore.RESET} ")
         howmany = input(f"{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}How Many Repos ~>{Fore.RESET} ")
         print()
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -146,7 +146,7 @@ def tool():
         name = input(f"{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Repository Name ~>{Fore.RESET} ")
         issue_range = input(f"{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Issue Range (Example, 1 or 7,12) ~>{Fore.RESET} ")
         print()
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -168,7 +168,7 @@ def tool():
     elif opc == "7":
         Utils.update_title("Repository Deleter")
         print()
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -194,7 +194,7 @@ def tool():
         needed = parsed_url.path.strip('/')
         repo_url = f"https://api.github.com/repos/{needed}"
         print()
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -217,7 +217,7 @@ def tool():
         Utils.update_title("Star Botter")
         urls = input(f"\n{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Enter URLs (link,link2) ~>{Fore.RESET} ").split(',')
         print()
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -241,7 +241,7 @@ def tool():
         Utils.update_title("Star Deleter")
         urls = input(f"\n{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Enter URLs (link,link2) ~>{Fore.RESET} ").split(',')
         print()
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
@@ -292,7 +292,7 @@ def tool():
         howmany = input(int(f"{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}How Many ~>{Fore.RESET} "))
         title = input(f"{Fore.CYAN}({Fore.BLUE}>{Fore.CYAN}) {Fore.LIGHTBLUE_EX}Title ~>{Fore.RESET} ")
         print()
-        with open("tokens.txt", "r") as f:
+        with open("data/tokens.txt", "r") as f:
             tokens = f.read().splitlines()
 
         threads = []
